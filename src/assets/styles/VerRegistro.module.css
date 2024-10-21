@@ -1,0 +1,62 @@
+
+.encabezado{
+  padding: 0.5rem;
+
+
+}
+   
+.table {
+  border-spacing: 0.3rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1rem;
+  margin: 0 auto;
+  color: black;
+  border-collapse: collapse;
+  width: 90%; 
+  max-width: 100%; 
+  overflow-x: auto; 
+  text-align: left;
+}
+
+
+@media screen and (max-width: 645px) {
+  .table {
+      font-size: 0.7rem; 
+  }
+}
+@media screen and (max-width: 485px) {
+  .table {
+      font-size: 0.4rem; 
+  }
+}
+@media screen and (max-width: 340px) {
+  .table {
+      font-size: 0.3rem; 
+  }
+}
+
+.tr{
+  border: 1px black solid;
+}
+
+.td {
+  border: none;
+  padding: 0.5rem;
+}
+button{
+  margin-right: 1rem;
+  margin-top: 0.2rem;
+  width: 90%;
+  margin-bottom: 0.2rem;
+  background-color: rgb(12, 12, 12);
+  color: white;
+
+}
+button:hover{
+  transform: scale(1.1);
+  background-color: rgba(47, 90, 139, 0.5);
+  color: white;
+}
+h1{
+  text-align: center;
+}

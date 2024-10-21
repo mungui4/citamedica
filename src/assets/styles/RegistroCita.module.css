@@ -1,0 +1,91 @@
+.containerForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 5rem;
+    width: 100%;
+   
+
+    
+   
+}
+@media (max-width: 775px) {
+    .containerForm {
+        height: 80%;
+       
+    }
+}
+
+.form {
+    background: linear-gradient(rgba(31, 31, 240, 0.623), rgba(246, 248, 248, 0.603));
+    display: grid;
+    padding: 30px;
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    font-size: 1.5rem;
+    width: 100%;
+    max-width: 500px;
+   
+    
+}
+@media (max-width: 440px) {
+    .form {
+      
+        font-size: 1rem;
+    }
+
+}
+
+.form input {
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border: none;
+    margin-top: 0.2rem;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form label {
+    margin-top: 1rem;
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+}
+
+
+.buttom {
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-top: 15px;
+    margin-inline: auto;
+    border-radius: 15px;
+    color: rgb(43, 40, 40);
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    width: 80%;
+    transition: background-color 0.3s ease;
+  
+}
+.buttom:hover {
+    background-color: rgba(47, 90, 139, 0.5);
+    color: white;
+  
+}
+
+.options{
+    border-radius: 25px;
+    padding:0.5rem; 
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    margin-top: 5px;
+}
+.spanAlert{
+    color: rgb(255, 247, 247);
+    font-size:small;
+}
